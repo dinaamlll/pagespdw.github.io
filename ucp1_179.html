@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - A Day In My Life</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <span class="navbar-title">A Day In My Life</span>
+    <ul class="navbar-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <p class="greeting" id="greeting"></p>
+    </div>
+    <div class="header-right">
+      <p class="date-time" id="date-time"></p>
+    </div>
+  </header>
+
+  <!-- Carousel -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pizza.webp" class="d-block w-100" alt="Pizza">
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="card-container">
+    <!-- Jogging card -->
+    <div class="card">
+      <img src="jogging.webp" class="card-img-top" alt="Jogging">
+      <div class="card-body">
+        <h5 class="card-title">🏃 Jogging</h5>
+        <p class="card-text">Hari dimulai dengan segar setelah bangun pagi dan menjalankan rutinitas jogging di dekat kost.</p>
+      </div>
+    </div>
+    <!-- Belajar card -->
+    <div class="card">
+      <img src="belajar.webp" class="card-img-top" alt="Belajar">
+      <div class="card-body">
+        <h5 class="card-title">📚 Belajar</h5>
+        <p class="card-text">Setelah sarapan, Saya menyempatkan diri untuk menyelesaikan tugas-tugas kuliah dan mempersiapkan diri untuk ujian yang akan datang. </p>
+      </div>
+    </div>
+    <!-- Tidur card -->
+    <div class="card">
+      <img src="tidur.jpg" class="card-img-top" alt="Tidur">
+      <div class="card-body">
+        <h5 class="card-title">😴 Tidur</h5>
+        <p class="card-text">Setelah seharian penuh aktivitas, saatnya untuk tidur dan istirahat.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Pengembangan Desain Web. Created by Dina Amalia</p>
+  </footer>
+
+  <!-- JavaScript for dynamic greeting and date-time -->
+  <script src="script.js"></script>
+</body>
+</html>
